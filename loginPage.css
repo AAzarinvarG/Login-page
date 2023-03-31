@@ -16,3 +16,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#div-right {
+    width: 100vh;
+    background-color: orange;
+}

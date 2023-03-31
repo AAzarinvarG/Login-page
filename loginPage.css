@@ -64,3 +64,16 @@ body {
     box-shadow: 0 1px 5px #ccc;
     font-family: inputfont;
 }
+
+#labelCheckBox {
+    margin-left: 11rem;
+    font-family: inputfont;
+}
+
+#input-checkbox {
+    width: 2vh;
+    height: 2vh;
+    margin-top: -1.5rem;
+    margin-left: 17.5rem;
+    border: 0;
+}

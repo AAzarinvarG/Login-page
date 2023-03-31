@@ -60,6 +60,12 @@ body {
     src: url(Lalezar-Regular.ttf);
 }
 
+#icon-eye {
+    width: 4vh;
+    position: absolute;
+    margin: 20.1vh 40.4vh; 
+}
+
 #input-password {
     width: 40vh;
     height: 5vh;

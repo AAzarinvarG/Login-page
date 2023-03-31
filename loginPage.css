@@ -104,3 +104,23 @@ body {
     box-shadow: 0 1px 25px green;
     cursor: pointer;
 }
+
+#register-btn {
+    width: 40vh;
+    height: 5vh;
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background-color: #4F89D0;
+    box-shadow: 0 1px 5px #3f81d3;
+    font-size: 1.3rem;
+    font-family: inputfont;
+    transition: 0.5s;
+}
+
+#register-btn:hover {
+    box-shadow: 0 1px 25px #1a6ccf;
+    cursor: pointer;
+}

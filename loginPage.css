@@ -88,7 +88,13 @@ body {
     outline: 0;
     border-radius: 10px;
     background-color: #4CAF50;
-    box-shadow: 0 1px 10px green;
+    box-shadow: 0 1px 5px green;
     font-size: 1.3rem;
     font-family: inputfont;
+    transition: 0.5s;
+}
+
+#login-btn:hover {
+    box-shadow: 0 1px 25px green;
+    cursor: pointer;
 }

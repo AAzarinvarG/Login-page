@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     box-shadow: 0 1px 5px #ccc,
-    0 0 5px #ccc;
+        0 0 5px #ccc;
     border-radius: 10px;
 }
 
@@ -59,7 +59,7 @@ body {
 #icon-eye {
     width: 4vh;
     position: absolute;
-    margin: 20.1vh 40.4vh; 
+    margin: 20.1vh 40.4vh;
 }
 
 #input-password {
@@ -135,4 +135,32 @@ body {
     width: 100vh;
     background-size: cover;
     background-position: 0 50%;
+}
+
+/* media style */
+@media (max-width: 992px) {
+    #div-right {
+        display: none;
+    }
+
+    #login {
+        box-shadow: 0 0 0;
+        background-color: rgba(0, 0, 0, 0.7)
+    }
+
+    #title {
+        color: white;
+    }
+
+    #labelCheckBox {
+        color: white;
+    }
+
+    body {
+        justify-content: center;
+        align-items: center;
+        background-image: url(img/coffeAndCookie.jpg);
+        background-size: cover;
+        background-position: 0% 50%;
+    }
 }

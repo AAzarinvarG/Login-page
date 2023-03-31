@@ -17,11 +17,6 @@ body {
     align-items: center;
 }
 
-#div-right {
-    width: 100vh;
-    background-color: orange;
-}
-
 #login {
     user-select: none;
     width: 50vh;
@@ -133,4 +128,12 @@ body {
 #register-btn:hover {
     box-shadow: 0 1px 25px #1a6ccf;
     cursor: pointer;
+}
+
+#div-right {
+    width: 100vh;
+    background-color: orange;
+    background-image: url(img/afternoon.jpg);
+    background-size: cover;
+    background-position: 0 50%;
 }

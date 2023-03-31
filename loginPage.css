@@ -30,6 +30,12 @@ body {
     flex-direction: column;
 }
 
+#title {
+    font-size: 2.8rem;
+    font-family: inputfont;
+    text-align: center;
+}
+
 #input-username {
     width: 40vh;
     height: 5vh;

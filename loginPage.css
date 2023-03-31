@@ -21,3 +21,11 @@ body {
     width: 100vh;
     background-color: orange;
 }
+
+#login {
+    width: 50vh;
+    height: 50vh;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+}

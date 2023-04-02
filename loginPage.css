@@ -17,14 +17,29 @@ body {
 }
 
 #login {
+    transition: 1s;
+    overflow: hidden;
     user-select: none;
     width: 50vh;
-    height: 50vh;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     box-shadow: 0 1px 5px #ccc,
-        0 0 5px #ccc;
+    0 0 5px #ccc;
     border-radius: 10px;
+}
+
+#header-element {
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+
+#header-element2 {
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    margin-left: -40rem;
 }
 
 #title {
@@ -58,7 +73,8 @@ body {
 #icon-eye {
     width: 4vh;
     position: absolute;
-    margin: 20.1vh 40.4vh;
+    margin: 12rem 24.3rem;
+    cursor: pointer;
 }
 
 #input-password {
@@ -85,6 +101,7 @@ body {
     width: 2vh;
     height: 2vh;
     margin-top: -1.5rem;
+    margin-bottom: 1rem;
     margin-left: 17.5rem;
     border: 0;
 }
@@ -110,11 +127,14 @@ body {
     cursor: pointer;
 }
 
+.register-btn2 {
+    margin-top: 0.5rem;
+}
+
 #register-btn {
     width: 40vh;
     height: 5vh;
     margin-left: 5vh;
-    margin-bottom: 2vh;
     border: 0;
     outline: 0;
     border-radius: 10px;
@@ -135,6 +155,21 @@ body {
     background-image: url(img/coffeAndCookie.jpg);
     background-size: cover;
     background-position: 0 50%;
+}
+
+#input-email {
+    width: 40vh;
+    height: 5vh;
+    margin-left: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: 1.3rem;
+    box-shadow: 0 1px 5px #ccc;
+    font-family: inputfont;
 }
 
 /* media style */
